@@ -1,0 +1,127 @@
+.container {
+    width: min(100% 1440px);
+    margin: auto;
+}
+
+/* .header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 150px;
+}
+
+header h2 {
+font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 900;
+line-height: 32px;
+letter-spacing: -0.44023728370666504px;
+text-align: left;
+color: black;
+}
+
+
+header nav {
+
+
+}
+
+
+header ul {
+    display: flex;
+    column-gap: 36px;
+}
+
+header ul li a{
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.44023728370666504px;
+text-align: left;
+
+}
+
+.header_action{
+    width: 100px;
+    background-color:#524A44 ;
+     border-radius: 32px; 
+    display: flex;
+    height: 48px;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_action h3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.44px;
+    text-transform: uppercase;
+}
+
+.burger {
+    display: none;
+}
+
+
+/* section1 */
+
+.section1 {
+    height: 520px; 
+    background-image: url("../image/cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center; 
+    padding-inline: 274px;
+
+}
+
+
+.section1_text_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px; 
+}
+
+
+.section1 h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+
+.section1_div {
+
+    width: 100px;
+    background-color:black ;
+    border-radius: 32px; 
+    display: flex;
+    height: 48px;
+    padding: 12px 31px;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 900;
+line-height: 24px;
+letter-spacing: -0.44023728370666504px;
+text-align: left;
+color: #F3F3F3;
+}
