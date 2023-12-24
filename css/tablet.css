@@ -1,3 +1,19 @@
+@media (max-width :745px){
+
+    /* section2 */
+    .section2{
+        padding: 24px;
+    }
+
+    .section2_content{
+        flex-direction: column;
+        text-align: center;   
+    }
+    
+}
+
+
+
 @media (max-width: 688px){
     /* header */
     header {
@@ -33,5 +49,23 @@
     }
 
 
+
+
+}
+
+
+@media(max-width:530px){
+    /* section2 */
+    .section2_header{
+        font-size: 18px;
+        line-height: 26px;
+        
+    }
+
+    .section2_text{
+        font-size: 14px;
+        line-height: 22px;
+        
+    }
 }
 

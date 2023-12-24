@@ -1,11 +1,17 @@
  @media (max-width: 1315px){
 /* section1 */
-.section1{
+ .section1{
 
     padding-inline: 66px;
-}
+    }
 
-} 
+
+ }
+
+
+
+
+
 
 
 @media (max-width: 1025px){
@@ -15,7 +21,28 @@
     }
 
 
-}
+    /* .section2 */
+.section2{
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 32px;
+ } 
+ 
+ .img_container{
+     width: 100%;
+     height: 480px;
+ }
+ 
+ .section2_content{
+     flex-direction: row;
+     justify-content: space-between;
+     width: 100%;
+ }
+ 
+} 
+
+
+
 
 
 @media (max-width: 900px){
