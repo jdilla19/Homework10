@@ -171,3 +171,46 @@ letter-spacing: 0.1px;
 
 
 
+/* .section3 */
+
+.section3{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding: 80px 150px; 
+}
+
+article {
+    background: #E3DAD8;
+}
+
+.article_container {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-bottom: 16px;
+}
+
+.article_avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.article_header {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.article_text {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
