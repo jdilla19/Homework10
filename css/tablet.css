@@ -16,5 +16,22 @@
         display: block;
     }
 
+/* section1 */ 
+    .section1{
+        padding-inline: 66px;
+    }
 
 } 
+
+
+@media (max-width: 625px){
+/* section1 */
+
+    .section1_content h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+}
+

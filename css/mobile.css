@@ -1,4 +1,9 @@
-@media (max-width: 688px){
+@media (max-width: 375px){
+    /* section1 */
+    .section1{
+        height: 240px;
+        padding-inline: 24px;
+    }
 
 
 
